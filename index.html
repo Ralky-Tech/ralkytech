@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ralky Tech Soluções</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="icon" href="./assets/imagem/favicon.ico" type="image/x-icon" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand brand-wrap" href="#banner">
+          <img id="logo" src="./assets/imagem/logo_ralky-semfundo.png" alt="Logo Ralky Tech" />
+          <span class="logoRalky">RalkyTech</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Alternar navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#banner">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Soluções</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projeto">Case</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Equipe</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="banner" id="banner">
+      <div class="banner-overlay"></div>
+
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="badge-tech">UX/UI • Desenvolvimento Web • Soluções Digitais</span>
+
+          <h1>Desenvolvemos experiências digitais que conectam design, tecnologia e performance</h1>
+
+          <p>
+            Criamos sites, interfaces e aplicações com foco em usabilidade,
+            identidade visual e presença digital para marcas que querem evoluir
+            no ambiente online com mais impacto e profissionalismo.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#services" class="btn-cta primary">Conhecer soluções</a>
+            <a href="#projeto" class="btn-cta secondary">Ver projeto em destaque</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="hero-card-body">
+            <p class="code-line"><span>&lt;/&gt;</span> Front-end moderno</p>
+            <p class="code-line"><span>UI</span> Interfaces centradas no usuário</p>
+            <p class="code-line"><span>APP</span> Soluções escaláveis para web</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-title">
+          <span class="section-tag">Soluções</span>
+          <h2>Soluções pensadas para negócios que querem evoluir digitalmente</h2>
+          <p>
+            Projetamos e desenvolvemos produtos digitais com foco em presença
+            online, experiência do usuário e performance.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="service-item">
+              <img class="imagem" src="./assets/imagem/website.jpeg" alt="Web Site" />
+              <div class="service-content">
+                <p class="tipoServico">Web Site</p>
+                <span class="service-desc">
+                  Sites institucionais e landing pages com visual moderno,
+                  navegação intuitiva e estrutura pensada para fortalecer sua marca.
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <a
+              href="https://www.figma.com/proto/VWMUakcIFpxIdzFtGwbwj2/revest_app_modelo?node-id=90-868&p=f&t=r7ZJUmYJtxnSbMEe-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=90%3A860"
+              target="_blank"
+              class="service-link"
+            >
+              <div class="service-item">
+                <img class="imagem" src="./assets/imagem/prototipo.jpeg" alt="Prototipação" />
+                <div class="service-content">
+                  <p class="tipoServico">Prototipação</p>
+                  <span class="service-desc">
+                    Protótipos navegáveis e interfaces estratégicas para validar
+                    ideias, otimizar fluxos e acelerar o desenvolvimento.
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="service-item">
+              <img class="imagem" src="./assets/imagem/webMobile.jpeg" alt="Aplicações Web e Mobile" />
+              <div class="service-content">
+                <p class="tipoServico">Aplicações Web</p>
+                <span class="service-desc">
+                  Soluções sob medida com foco em escalabilidade, usabilidade e
+                  adaptação para diferentes dispositivos e contextos de uso.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-highlights">
+          <div class="highlight-card">
+            <i class="fa-solid fa-bolt"></i>
+            <h3>Performance</h3>
+            <p>
+              Carregamento otimizado, estrutura leve e experiência fluida
+              para o usuário.
+            </p>
+          </div>
+
+          <div class="highlight-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Arquitetura limpa</h3>
+            <p>
+              Código organizado, manutenção facilitada e evolução sustentável
+              para o projeto.
+            </p>
+          </div>
+
+          <div class="highlight-card">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h3>Experiência multiplataforma</h3>
+            <p>
+              Interfaces preparadas para funcionar com qualidade em desktop,
+              tablet e smartphone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-video-apresenta" id="projeto">
+      <div class="container">
+        <div class="section-title light">
+          <span class="section-tag">Case em destaque</span>
+          <h2>Conheça o Projeto Revest Kids</h2>
+          <p>
+            Um projeto desenvolvido com foco em interface, experiência do usuário
+            e apresentação visual do produto digital. Ajuste o volume do seu
+            aparelho e dê play no vídeo.
+          </p>
+        </div>
+
+        <article class="apresenta">
+          <video id="meuVideo" controls>
+            <source src="./assets/video/videoplayback.mp4" type="video/mp4" />
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </article>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <div class="container">
+        <div class="section-title left light">
+          <span class="section-tag">Quem somos</span>
+          <h2>Quem está por trás da Ralky Tech</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="txt-contato">
+              A Ralky Tech é uma equipe focada em criar soluções digitais modernas,
+              unindo desenvolvimento, design e estratégia para construir
+              experiências relevantes no ambiente online.
+            </p>
+
+            <p class="txt-contato">
+              Atuamos com desenvolvimento web, prototipação e interfaces digitais,
+              sempre buscando equilíbrio entre estética, funcionalidade e performance.
+            </p>
+
+            <p class="txt-contato">
+              Nosso objetivo é transformar ideias em produtos digitais bem
+              estruturados, com identidade visual forte e experiência pensada
+              para o usuário.
+              <strong><br />Entre em contato e leve sua presença digital para um novo nível.</strong>
+            </p>
+
+            <div class="btn-social">
+              <a href="https://www.instagram.com/ralkytech" target="_blank" aria-label="Instagram">
+                <button><i class="fa-brands fa-instagram"></i></button>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/company/ralky-tech/?viewAsMember=true"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <button><i class="fa-brands fa-linkedin"></i></button>
+              </a>
+
+              <a href="https://github.com/RalkyTech" target="_blank" aria-label="GitHub">
+                <button><i class="fa-brands fa-github"></i></button>
+              </a>
+
+              <a href="mailto:ralkytech@gmail.com" target="_blank" aria-label="E-mail">
+                <button><i class="fas fa-envelope"></i></button>
+              </a>
+            </div>
+          </div>
+
+          <div class="about-side-card">
+            <h3>Por que escolher a RalkyTech?</h3>
+            <ul>
+              <li>Design e tecnologia trabalhando juntos</li>
+              <li>Soluções sob medida para cada projeto</li>
+              <li>Experiência digital com foco no usuário</li>
+              <li>Estrutura moderna, responsiva e funcional</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="team-section">
+          <h3 class="team-title">Nossa equipe</h3>
+
+          <div class="equipe">
+            <div class="team-card">
+              <div class="team-card-inner">
+                <div class="team-card-front">
+                  <img src="./assets/imagem/camila100x100.png" alt="Foto Camila Machado" />
+                  <h5>Camila Machado</h5>
+                </div>
+                <div class="team-card-back">
+                  <p><strong>Camila Machado</strong><br />Designer Gráfico UX/UI</p>
+                  <div class="team-social">
+                    <a href="https://www.linkedin.com/in/camila-machado-de-souza-996373261/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/MaxPichy" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-card-inner">
+                <div class="team-card-front">
+                  <img src="./assets/imagem/felipe100x100.png" alt="Foto Felipe Guedes" />
+                  <h5>Felipe Guedes</h5>
+                </div>
+                <div class="team-card-back">
+                  <p><strong>Felipe Guedes</strong><br />Desenvolvedor Backend</p>
+                  <div class="team-social">
+                    <a href="https://www.linkedin.com/in/felipe-cunha-guedes-715ba9300/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Felipecg2k2" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-card-inner">
+                <div class="team-card-front">
+                  <img src="./assets/imagem/Kaio100x100.png" alt="Foto Kaio Toshiyuki" />
+                  <h5>Kaio Toshiyuki</h5>
+                </div>
+                <div class="team-card-back">
+                  <p><strong>Kaio Toshiyuki</strong><br />Suporte Hardware</p>
+                  <div class="team-social">
+                    <a href="https://www.linkedin.com/in/kaio-sumikawa-972515365/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/KaioSumikawa" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-card-inner">
+                <div class="team-card-front">
+                  <img src="./assets/imagem/Ricardo100x100.png" alt="Foto Ricardo Sugano" />
+                  <h5>Ricardo Sugano</h5>
+                </div>
+                <div class="team-card-back">
+                  <p><strong>Ricardo Sugano</strong><br />Desenvolvedor Full Stack</p>
+                  <div class="team-social">
+                    <a href="https://www.linkedin.com/in/ricardo-sugano-25b528365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ricardosugano" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-card-inner">
+                <div class="team-card-front">
+                  <img src="./assets/imagem/rogerio100x100.png" alt="Foto Rogério Toledo" />
+                  <h5>Rogério Toledo</h5>
+                </div>
+                <div class="team-card-back">
+                  <p><strong>Rogério Toledo</strong><br />Desenvolvedor Frontend</p>
+                  <div class="team-social">
+                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container rodape">
+      <div>
+        <img class="logo_ralky" src="./assets/imagem/logo_ralky-semfundo.png" alt="Logo empresa" />
+      </div>
+
+      <p id="texto">
+        &copy; 2025 Ralky Tech.
+        <br />
+        Soluções digitais com design, tecnologia e inovação.
+      </p>
+
+      <div class="txt_logo">
+        <p>Design by Ralky Tech</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const teamCards = document.querySelectorAll(".team-card");
+
+      teamCards.forEach((card) => {
+        card.addEventListener("click", function () {
+          if (this.classList.contains("flipped")) {
+            this.classList.remove("flipped");
+          } else {
+            teamCards.forEach((c) => c.classList.remove("flipped"));
+            this.classList.add("flipped");
+          }
+        });
+      });
+
+      document.addEventListener("click", function (event) {
+        if (!event.target.closest(".team-card")) {
+          teamCards.forEach((card) => {
+            card.classList.remove("flipped");
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
