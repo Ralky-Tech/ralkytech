@@ -202,7 +202,7 @@
       <div class="container">
         <div class="section-title light">
           <span class="section-tag">Case em destaque</span>
-          <h2>Conheça o Projeto Revest Kids</h2>
+          <h2>Conheça o Projeto Reveste Kids</h2>
           <p>
             Um projeto desenvolvido com foco em interface, experiência do
             usuário e apresentação visual do produto digital. Ajuste o volume
@@ -258,7 +258,7 @@
                 <button><i class="fa-brands fa-linkedin"></i></button>
               </a>
 
-              <a href="https://github.com/RalkyTech" target="_blank" aria-label="GitHub">
+              <a href="https://github.com/Ralky-Tech" target="_blank" aria-label="GitHub">
                 <button><i class="fa-brands fa-github"></i></button>
               </a>
 
@@ -329,7 +329,7 @@
                   <div class="team-name">Kaio Toshiyuki</div>
                 </div>
                 <div class="team-card-back">
-                  <p><strong>Kaio Toshiyuki</strong><br />Suporte Hardware</p>
+                  <p><strong>Kaio Toshiyuki</strong><br />Desenvolvedor Full-Stack</p>
                   <div class="team-social">
                     <a href="https://www.linkedin.com/in/kaio-sumikawa-972515365/" target="_blank"><i
                         class="fa-brands fa-linkedin"></i></a>
@@ -347,7 +347,7 @@
                 </div>
                 <div class="team-card-back">
                   <p>
-                    <strong>Ricardo Sugano</strong><br />Desenvolvedor Full
+                    <strong>Ricardo Sugano</strong><br />Desenvolvedor Full-Stack
                     Stack
                   </p>
                   <div class="team-social">
@@ -367,12 +367,13 @@
                 </div>
                 <div class="team-card-back">
                   <p>
-                    <strong>Rogério Toledo</strong><br />Desenvolvedor
+                    <strong>Rogério Toledo</strong><br />Desenvolvedor Backend
                     Frontend
                   </p>
                   <div class="team-social">
-                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rogerio-pupo-964ab5244/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/toledorp" target="_blank"><i class="fa-brands fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -386,7 +387,7 @@
   <footer>
     <div class="container rodape">
       <p id="texto">
-        &copy; 2025 Ralky Tech.
+        &copy; <span id="ano-atual"></span> Ralky Tech.
         <br />
         Soluções digitais com design, tecnologia e inovação.
       </p>
@@ -397,6 +398,8 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
+      document.getElementById("ano-atual").textContent = new Date().getFullYear();
+
       const teamCards = document.querySelectorAll(".team-card");
 
       teamCards.forEach((card) => {
